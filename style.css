@@ -171,7 +171,7 @@ section .title::after{
 }
 .about .title::after{
 	content: "Webdevxel";
-	background: #F0F8FF
+	background: #F0F8FF;
 }
 
 .about .about-content .left{
@@ -412,11 +412,11 @@ section .title::after{
 
 /* contact section styling */
 .contact{
-	background: url("images/banner3.jpg") no-repeat;
+	background: #F0F8FF;
 }
 .contact .title::after{
 	background: #F0F8FF;
-    	content: "";
+    content: "";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -449,7 +449,7 @@ section .title::after{
 }
 .contact .contact-content .info .sub-title{
 	font-style: inherit;
-    	color: black;
+    color: black;
 }
 .contact .right form .fields{
     display: flex;
@@ -527,6 +527,15 @@ footer span a:hover{
     text-decoration: none;
     color: crimson;
 }
+.footer .title{
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.footer{
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
 
 /**Responsive Media Query**/
 @media (max-width: 1300px){
